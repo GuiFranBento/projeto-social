@@ -25,12 +25,14 @@ body{
 
 
 
-main{
+main > section{
     position: relative;
-    height: 100vh;
-    width: 100vw;
+    max-width: 1000px;
+    min-width: 300px;
     margin: auto;
 }
+
+
 
 section#telefone {
     position: absolute;
@@ -39,7 +41,7 @@ section#telefone {
     transform: translate(-50%, -50%);
     
     height:627px;    
-    width: 311px;
+    width: 100%;
     background:  url('../imagens/frame-iphone.png') no-repeat;
 
 
