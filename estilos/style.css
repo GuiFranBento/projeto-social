@@ -29,7 +29,7 @@ main > section{
     position: relative;
     max-width: 1000px;
     min-width: 300px;
-    margin: auto;
+    width: 100vw;
 }
 
 
@@ -39,9 +39,9 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    width: auto;
     height:627px;    
-    width: 100%;
+   
     background:  url('../imagens/frame-iphone.png') no-repeat;
 
 
